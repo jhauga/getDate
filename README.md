@@ -14,8 +14,6 @@ Works identically on **macOS**, **Linux**, and **Windows**.
 
 ---
 
-
-
 - [Features](#features)
 - [Install](#install)
   - [From npm](#from-npm)
@@ -52,15 +50,15 @@ Works identically on **macOS**, **Linux**, and **Windows**.
 ### From npm
 
 ```bash
-npm install getdate
+npm install @jhauga/getdate
 ```
 
 ```bash
-yarn add getdate
+yarn add @jhauga/getdate
 ```
 
 ```bash
-pnpm add getdate
+pnpm add @jhauga/getdate
 ```
 
 ### From GitHub (install into a codebase)
@@ -71,7 +69,7 @@ If the package has not been published to the npm registry, install directly from
 npm install github:YOUR_USERNAME/getDate
 ```
 
-Replace `YOUR_USERNAME` with the GitHub user or organization that owns the repository. After running this, the package appears under `node_modules/getdate` and can be imported as normal.
+Replace `YOUR_USERNAME` with the GitHub user or organization that owns the repository. After running this, the package appears under `node_modules/@jhauga/getdate` and can be imported as normal.
 
 To pin to a specific tag or commit:
 
@@ -102,7 +100,7 @@ Or reference it with a relative path directly in your `package.json`:
 ```json
 {
   "dependencies": {
-    "getdate": "file:../getDate"
+    "@jhauga/getdate": "file:../getDate"
   }
 }
 ```
@@ -118,7 +116,7 @@ Rather than running an install command, you can add the dependency directly to y
 ```json
 {
   "dependencies": {
-    "getdate": "^1.0.0"
+    "@jhauga/getdate": "^1.0.0"
   }
 }
 ```
@@ -128,7 +126,7 @@ Rather than running an install command, you can add the dependency directly to y
 ```json
 {
   "dependencies": {
-    "getdate": "github:YOUR_USERNAME/getDate"
+    "@jhauga/getdate": "github:YOUR_USERNAME/getDate"
   }
 }
 ```
@@ -138,7 +136,7 @@ To pin to a specific release tag or commit:
 ```json
 {
   "dependencies": {
-    "getdate": "github:YOUR_USERNAME/getDate#v1.0.0"
+    "@jhauga/getdate": "github:YOUR_USERNAME/getDate#v1.0.0"
   }
 }
 ```
@@ -154,7 +152,7 @@ npm install
 ## Quick Start
 
 ```typescript
-import { getDate } from 'getdate';
+import { getDate } from '@jhauga/getdate';
 
 // Default call — returns all common date values
 const result = getDate();
@@ -175,8 +173,8 @@ All calls are **silent by default** (no stdout output). Pass `silent: false` to 
 ### `getDate(options?)`
 
 ```typescript
-import { getDate } from 'getdate';
-import type { GetDateOptions, GetDateResult } from 'getdate';
+import { getDate } from '@jhauga/getdate';
+import type { GetDateOptions, GetDateResult } from '@jhauga/getdate';
 
 const result: GetDateResult = getDate(options?: GetDateOptions);
 ```
