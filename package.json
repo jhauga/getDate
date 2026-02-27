@@ -4,6 +4,15 @@
   "description": "Get the current date in various formats with flexible options. Cross-platform Node.js utility for date retrieval, formatting, and calculation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "author": "John Haugabook",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhauga/getDate.git"
+  },
+  "bugs": {
+   "url": "https://github.com/jhauga/getDate/issues"
+  },
+  "homepage": "https://github.com/jhauga/getDate",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc --watch",

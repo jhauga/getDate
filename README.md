@@ -1,4 +1,4 @@
-# ![logo](logo.png)
+# ![logo](https://raw.githubusercontent.com/jhauga/getDate/refs/heads/main/logo.png)
 
 > Get the current date in any format your project needs.
 
