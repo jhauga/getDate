@@ -1,16 +1,16 @@
 {
   "name": "@jhauga/getdate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get the current date in various formats with flexible options. Cross-platform Node.js utility for date retrieval, formatting, and calculation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "John Haugabook",
+  "author": "",
   "repository": {
     "type": "git",
     "url": "https://github.com/jhauga/getDate.git"
   },
   "bugs": {
-   "url": "https://github.com/jhauga/getDate/issues"
+    "url": "https://github.com/jhauga/getDate/issues"
   },
   "homepage": "https://github.com/jhauga/getDate",
   "scripts": {
@@ -35,7 +35,6 @@
     "year",
     "getdate"
   ],
-  "author": "",
   "license": "MIT",
   "files": [
     "dist/**/*",

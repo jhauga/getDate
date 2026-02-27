@@ -74,7 +74,7 @@ Replace `YOUR_USERNAME` with the GitHub user or organization that owns the repos
 To pin to a specific tag or commit:
 
 ```bash
-npm install github:YOUR_USERNAME/getDate#v1.0.0
+npm install github:YOUR_USERNAME/getDate#v1.0.1
 ```
 
 ### Local install (copy into codebase)
@@ -116,7 +116,7 @@ Rather than running an install command, you can add the dependency directly to y
 ```json
 {
   "dependencies": {
-    "@jhauga/getdate": "^1.0.0"
+    "@jhauga/getdate": "^1.0.1"
   }
 }
 ```
@@ -136,7 +136,7 @@ To pin to a specific release tag or commit:
 ```json
 {
   "dependencies": {
-    "@jhauga/getdate": "github:YOUR_USERNAME/getDate#v1.0.0"
+    "@jhauga/getdate": "github:YOUR_USERNAME/getDate#v1.0.1"
   }
 }
 ```
